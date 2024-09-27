@@ -1,5 +1,4 @@
 class Car {
-  // Public properties
   String brand;
   String model;
   int year;
@@ -8,7 +7,7 @@ class Car {
 
   int carAge() {
     int presentYear=2024;
-    return presentYear - year;
+    return DateTime.now().year - year;
   }
 }
 
