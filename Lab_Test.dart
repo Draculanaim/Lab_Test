@@ -5,7 +5,6 @@ class labTest{
     print(c);
   }
 }
-
 void main(){
   labTest obj =new labTest();
   print(obj.myName);
